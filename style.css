@@ -615,6 +615,7 @@ header.sticky {
 }
 
 @media (max-width:1110px) {
+
     #menu-icon {
         display: block;
     }
@@ -672,4 +673,10 @@ header.sticky {
     .categories-content {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .about {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
 }
