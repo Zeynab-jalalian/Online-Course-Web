@@ -527,3 +527,15 @@ header.sticky {
         transition: 0.2s;
     }
 }
+
+@media(max-width:1050px) {
+    :root {
+        --big-font: 3.2rem;
+        --h2-font: 2rem;
+        --p-font: 1rem;
+        transition: 0.1s;
+    }
+    .home{
+        height: 84vh;
+    }
+}
